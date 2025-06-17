@@ -1241,3 +1241,133 @@
         color: rgba(255, 166, 0, 0.699);
     }
 }
+
+
+
+
+/* -----Making Responsive----- */
+@media screen and (max-width: 768px) {
+    #main {
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 10px;
+        height: auto;
+    }
+
+    #main h4, #main i {
+        font-size: 14px;
+        margin: 5px 10px;
+    }
+
+    #main img {
+        width: 80px;
+        height: auto;
+    }
+
+    #page1 h1 {
+        font-size: 8vw;
+    }
+
+    #line {
+        font-size: 6vw;
+    }
+
+    #page1 p {
+        font-size: 4vw;
+    }
+
+    #varity, #varity4, #varity8 {
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+    }
+
+    #varity1, #varity2, #varity3,
+    #varity5, #varity6, #varity7,
+    #varity9, #varity10 {
+        margin: 15px 0;
+        width: 80%;
+    }
+
+    #order {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        height: auto;
+        padding: 20px;
+    }
+
+    #order h1 {
+        font-size: 7vw;
+        padding: 20px;
+    }
+
+    #input {
+        width: 80%;
+        padding: 15px;
+        margin-top: 20px;
+    }
+
+    #outlier {
+        width: 80%;
+        height: auto;
+        margin: 20px auto;
+    }
+
+    #outlier h3 {
+        font-size: 4vw;
+    }
+
+    #videos {
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+    }
+
+    #videos video {
+        width: 80%;
+        height: auto;
+        margin: 15px 0;
+    }
+
+    #insta h1 {
+        font-size: 5vw;
+        text-align: center;
+        padding: 20px;
+    }
+
+    #marqu img {
+        width: 30vw;
+        height: auto;
+    }
+
+    #last {
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+        padding: 20px;
+    }
+
+    #last ul {
+        margin: 20px 0;
+        text-align: center;
+    }
+
+    #last li {
+        font-size: 4vw;
+    }
+
+    #phone {
+        flex-direction: column;
+        text-align: center;
+        padding: 20px;
+    }
+
+    #phone h1, #phone span {
+        font-size: 6vw;
+    }
+
+    #phone img {
+        display: none;
+    }
+}
